@@ -1,71 +1,58 @@
 :root {
---dark:2d3273;
---light:009cea;
---font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-/* This is the background nav bar*/
-header { 
+    --dark:2d3273;
+    -light:009cea;
+    --h1-font-size: larger;
+    --h1-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --h1-text-decoration: (var)
+    }
+    
+    header { 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1%;
+            background-color: #2d3273;
+            color: 009eca;
+            min-width: margin 10px;
+    }
+    
+    nav ul {
         display: flex;
-        justify-content: space-between;
-        padding: 1%;
-        background-color: #2d3273;
-}
-/* h1 is the title*/
-h1{
-    font-size: 150%;
-    text-decoration: var(--dark);
-    display: fixed;
-/* h2 is the menu on the top right. */
-}
-h2{
-    font-size: 90%;
+        justify-content: right;
+        content: inherit;
+        padding: 20px;
+        word-spacing: 10%;
+        border-top-right-radius: 1;
+        border-bottom-left-radius: 1;
+        min-width: 20px;
+      }
+      
+      nav a {
+        flex-direction: column;
+        display:block;
+        flood-color:var(--dark)
+        margin-block-color var(light)
+        text-decoration var(--navlink-color);
+        text-align: right;
+     }
+    
+    header {
+    font-size: larger; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-
-nav ul {
-    display: flex;
-    padding: 20px;
-    word-spacing: 10%;
-    border-top-right-radius: 1;
-    border-bottom-left-radius: 1;
-    min-width: 20px;
-  }
-  
-  nav a {
-    text-decoration:  var(--light)
-    flex-decoration column;
-    display:block;
- }
-
- nav li a:hover {
-    color:var(--light);
-    text-underline-position: var(--light);
+    
+    .section 
+    margin-top
+    border-top
+    padding-top
+    
+    h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    border-radius: var(--nav color);
     }
-
-header {
-font-size: larger; 
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-/* this is the image under the nav bar*/
-.card {
-Abstract2.jpg;
-margin-top
-border-top
-padding-top
-border-none
-}
-/* this is the About Me section */
-.grid-container
-aside {
-    column-count: 2;
-    column-gap: 40px;
-    column-rule-style: solid;
-}
-.footer {
-justify-content: center;
-font
-  }
-/* This is the section for altering screen image sizes*/
-@media screen and (max-width: 780px); {
-    header
-    flex-direction: column;
+    
+    .footer {
+    justify-content: center;
+    font
+      }
