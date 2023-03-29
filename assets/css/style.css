@@ -36,14 +36,16 @@
   }
   .pictures{
       padding: 1em;
-      grid-row: 6/4
-      grid-columns; 4/6
+      grid-row: 6/4;
+      grid-columns: 4/6;
   }
-button:hover {
+.button
+
+
+  button:hover {
     background-color: #772014;
     color: #fff;
   }
-  
 button:active {
     font-size: 180%;
     box-shadow: 0 0 10px #000 inset;
@@ -52,9 +54,5 @@ button:active {
   button:focus {
     outline: none;
     border-color: #8ac4ff;
-  
-  .box3{ 
-    
-  }
-  
+   
       @media screen
