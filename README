@@ -3,6 +3,12 @@ I used coding from https://www.youtube.com/watch?v=jV8B24rSN5o&t=2s
 I tweaked it to make it a little more stylized.
 I have not finished it but I am still working on it. 
 
+I actually ran into lots of problems using that coding and  some how mangaged to delete it all.
+
+Now I am redoing this project for a 3rd time with a new design and tutorial I am using. 
+Below is what I have been following
+once completeed I fully intend to change some the elements, colors and fonts to more my personal style. 
+
 
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
