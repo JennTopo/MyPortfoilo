@@ -2,3 +2,7 @@ I was woking with a grid.
 I used coding from https://www.youtube.com/watch?v=jV8B24rSN5o&t=2s
 I tweaked it to make it a little more stylized.
 I have not finished it but I am still working on it. 
+
+
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
