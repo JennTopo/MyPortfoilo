@@ -33,8 +33,8 @@
      list-style: none;   
     }
     
-    h1 {font-size: 46px;}
-    h2 {font-size: 36px;}
+    h1 {font-size: 35px;}
+    h2 {font-size: 30px;}
     h3 {font-size:28px;}
     h4 {font-size: 24px;}
     h5 {font-size: 16px;}
@@ -73,7 +73,6 @@
     
        display:grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 3em 20em;
         grid-template-areas:
         'nav-wrapper nav wrapper'
         'left-column right-column'
@@ -98,21 +97,17 @@
         margin-left: 5px;
     }
     
-    .dots-wrapper{
+    .dots-wrapper{ 
     display:flex;
     padding: 10px;
     }
-
     #dot-1{
         background-color: red;
     }
     #dot-2{
     background-color: yellow;
     }
-
-    #dot-3{
-    background-color: green;
-}
+    
     .browser-dots{ 
         background-color: black;
         height:15px;
